@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practise - ADD</title>
+</head>
+<body>
+    <center>
+        <br/>
+        <button onclick="window.location.reload()" style="background-color: ivory; height:fit-content" > <h1>Clear ALL</h1></button>
+    <table cellspacing = 4 bgcolor = WHITE>
+        <caption> 
+            <h1>
+                Addition!
+            </h1>
+        </caption>
+        <tr>
+            <th>
+                First : <input type="number" id="first" placeholder="Number only">
+            </th>
+            <th>
+                Second : <input type="number" id="second" placeholder="Number only">
+            </th>
+        </tr>
+    </table>
+    <br>
+    <button onclick="add()">
+        <strong>Add</strong>
+    </button>
+    <h1 id="answer"></h1>
+
+    <br>
+    <h1>Multiplication Table</h1>
+    Table of : <input type="number" id = "mulA" placeholder="Number only">
+    <button onclick="multiplicationTable()">
+        <strong>Get Table</strong>
+    </button>
+    <table border="1" cellspacing = 10 bgcolor = WHITE id="product">
+    </table>    
+</table>
+</center>
+    <script src="functions.js"></script>
+</body>
+</html>
