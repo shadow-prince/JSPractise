@@ -19,6 +19,6 @@ function multiplicationTable()
         {
            newl.innerHTML+="<tr>" + "<h4>Table of "+a +"</h4></tr>";
         }
-        newl.innerHTML += "<tr><td>"+a+"x" + i + "=" + a*i +"</td></tr>"; 
+        newl.innerHTML += "<tr><td>"+a+" x " + i + " = " + a*i +"</td></tr>"; 
     }
 }
